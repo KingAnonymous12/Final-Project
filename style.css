@@ -1,0 +1,200 @@
+ .div-1{
+  background-color:red;
+  width: 300px;
+  height: 250px;
+  background: red;
+  padding: 20px;
+  position: relative;
+  }
+
+  .div-2{
+  background-color:green;
+  width: 300px;
+  height: 250px;
+  background: green;
+  padding: 20px;
+  position: relative;
+  left: 25%;
+  }
+
+  .div-3{
+  background-color:gold;
+  width: 300px;
+  height: 250px;
+  background: yellow;
+  padding: 20px;
+  position: relative;
+  left: 50%;
+  }
+
+  .div-4{
+  height: 300px;
+  border: 3px solid #2196F3;
+  border-collapse: collapse;
+  padding: 20px;
+  position: relative;
+  left: 75%;
+  width: 300px;
+  top: -700px;
+  }
+  table, th, td {
+    Border: 1px solid black;
+    Border-Collapse: collapse; 
+   width: 100vw;
+   text-align: center;
+  }
+
+  td{
+    text-align: center;
+}
+  h2{
+   text-align: center;
+    width: 1000px;
+   border-style: solid;
+    border-color:black;
+    color: blue;
+    float:inherit;
+  }
+
+  h3{
+    text-align: center;
+    width: 1000px;
+    color:yellow;
+    border-color:aliceblue;
+  }
+
+  input{
+    width: 90%;
+    text-align: center;
+    min-width: 600px;
+    max-width: 900px;
+  }
+
+  header{
+    text-align: center;
+    width: 100vw;
+
+  }
+
+  .center{
+     margin: auto;
+  }
+
+  h1{
+    border-style: solid;
+    border-color: red;
+    border-radius: 900px;
+    color: Blue
+  }
+
+body{
+  background-image: url("https://wallpaperaccess.com/full/2474805.jpg");
+ background-size: cover;
+}
+
+footer {
+ border: 100px;
+}
+
+body {
+  font-family: Arial;
+  font-size: 17px;
+  padding: 8px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; 
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%;
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%;
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+a {
+  color: #2196F3;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
